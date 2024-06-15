@@ -1,0 +1,153 @@
+                    @media (max-width: 768px) {
+                        .hamburger {
+                            display: block;
+                        }
+                        .non_header {
+                            display: flex !important;
+                            border: 1px solid;
+                            justify-content: space-between !important;
+                            flex-direction: row !important;
+                            padding: .5rem;
+                            padding-left: 2rem;
+                            padding-right: 2rem;
+                        }
+                        .scroll-indicator {
+                            position: fixed;
+                            bottom: 20px;
+                            left: 90%;
+                            z-index: 1000;
+                            width: 50px;
+                            height: 50px;
+                        }
+                        .non_header .links {
+                            display: none !important;
+                        }
+                        .links_menu li {
+                            list-style-type: none;
+                            padding: .8rem;
+                            padding-left: 0;
+                            border-bottom: 1px solid;
+                        }
+                        .flipper {
+                            font-weight: 400;
+                            font-size: 2rem;
+                            /* text-align: center; */
+                            width: 80%;
+                            margin-top: 50%;
+                        }
+                        marquee {
+                            font-size: 2rem;
+                            font-weight: 900;
+                            padding: 2rem;
+                            background: #151515;
+                            color: #fff;
+                        }
+                        .about {
+                            display: flex;
+                            padding: 1rem;
+                            align-items: center;
+                            gap: 3rem;
+                            margin-top: 4rem;
+                            justify-content: center;
+                            flex-direction: column !important;
+                        }
+                        .services_ {
+                            grid-template-columns: 1fr;
+                        }
+                        .new_wrap {
+                            display: flex;
+                            justify-content: flex-start;
+                            /* border: 1px solid; */
+                            align-items: center;
+                            margin-top: 5rem;
+                            flex-direction: column-reverse;
+                        }
+                        .about .text p:first-child {
+                            font-size: 2rem;
+                            /* text-align: center; */
+                        }
+                        .about .text p:last-child {
+                            font-size: 1rem;
+                            font-weight: 350;
+                            /* text-align: center; */
+                            width: 70;
+                        }
+                        .new_wrap .text_ p:first-child {
+                            font-size: 2rem;
+                        }
+                        .team {
+                            grid-template-columns: 1fr !important;
+                        }
+                        .values_wrap .title_v {
+                            font-size: 2rem !important;
+                        }
+                        .values_wrap {
+                            padding: 1rem;
+                        }
+                        .values {
+                            flex-direction: column;
+                            padding: 0;
+                        }
+                        .values .value {
+                            width: 100%;
+                        }
+                        .quest .questTitle {
+                            display: flex;
+                            justify-content: space-between;
+                            font-size: 1.2rem;
+                            font-weight: 350;
+                            padding-right: 1rem;
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid #ccc;
+                            align-items: center;
+                        }
+                        .footer .section1_ {
+                            flex-direction: column !important;
+                        }
+                        .widen {
+                            width: 100%;
+                            /* border: 1px solid white; */
+                            margin-bottom: 1rem;
+                        }
+                        .footer {
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        .footer_wrap {
+                            background-color: #151515;
+                            padding: 3rem;
+                            padding-left: 1rem;
+                            padding-right: 1rem;
+                            margin-top: 10rem;
+                        }
+                        .footer .section1_ img:last-child {
+                            width: 100%;
+                        }
+                        .img_header {
+                            width: 30%;
+                            padding: 1rem;
+                            padding-left: 0;
+                            padding-right: 0;
+                        }
+                        .mobile {
+                            display: inline;
+                        }
+                        .desktop {
+                            display: none;
+                        }
+                        .contact .image {
+                            display: none;
+                        }
+                        .form form {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                        }
+                        .form form input,
+                        button {
+                            width: 100%;
+                        }
+                        .form form textarea {
+                            width: 100%;
+                        }
+                    }

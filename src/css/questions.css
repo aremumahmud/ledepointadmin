@@ -1,0 +1,35 @@
+.questions {
+    padding: 3rem;
+}
+
+.q_title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.quest {
+    width: 90%;
+}
+
+.quest .questTitle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 350;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.question_content {
+    font-weight: 350;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.questions_pane {
+    margin-bottom: 2rem;
+}

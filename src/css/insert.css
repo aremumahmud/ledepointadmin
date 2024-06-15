@@ -1,0 +1,39 @@
+.insert_new {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insert_new form {
+    display: flex;
+    flex-direction: column;
+}
+
+.insert_new form input {
+    /* width: 100%; */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.insert_new .section {
+    width: 100%;
+}
+
+.insert_new .title {
+    font-size: 2rem;
+}
+
+.insert_new .subtitle {
+    font-size: 1.5rem;
+}
+
+.insert_new form button {
+    /* width: 100%; */
+    background-color: #151515;
+    color: #fff;
+    width: 100%;
+}

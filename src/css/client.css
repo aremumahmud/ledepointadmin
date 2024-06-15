@@ -1,0 +1,29 @@
+.client {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.client .client_title {
+    font-weight: 350;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.client .some_summary {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.client_image {
+    width: 6rem !important;
+    height: 6rem !important;
+    padding: 0rem !important;
+    background: none !important;
+}
+
+.client_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

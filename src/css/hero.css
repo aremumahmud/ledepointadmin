@@ -1,0 +1,57 @@
+.hero_T {
+    /* border: 1px solid; */
+    /* padding-top: 16rem;*/
+    padding-bottom: 16%;
+    position: relative;
+    height: 500px;
+    overflow-y: scroll;
+    overflow: hidden;
+    background-image: url(../assets/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 4.5rem;
+    /* align-items: center; */
+}
+
+.hero_txt {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: flex;
+    /* align-items: center; */
+    padding-left: 5%;
+    padding-bottom: 7%;
+    flex-direction: column;
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=010101&c2=3f5872&gt=r&gd=dcr
+*/
+    background: #010101;
+    background: radial-gradient(at right center, #0101017a, #3f587250);
+}
+
+.flipper {
+    color: #fff;
+    font-weight: 400;
+    font-size: 3.3rem;
+    /* text-align: center; */
+    width: 60%;
+    margin-top: 7%;
+}
+
+marquee {
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 3rem;
+    background: #151515;
+    color: #fff;
+}
+
+.img_header {
+    width: 15%;
+    padding: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+}

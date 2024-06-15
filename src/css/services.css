@@ -1,0 +1,32 @@
+.services {
+    background-color: #151515;
+    color: #fff;
+}
+
+.services_ {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.services_ .service_card img {
+    width: 100%;
+    border-radius: 10px;
+    /* transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out; */
+    /* transform: scale(0.8); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.team .service_card p {
+    font-size: 1.6rem !important;
+    margin-bottom: 0;
+}
+
+.team .service_card p:last-child {
+    font-size: 1rem !important;
+}
+
+[data-sr-id].sr {
+    transform: scale(1);
+    opacity: 1;
+}
