@@ -1,5 +1,5 @@
 const urls = {
-    server: 'http://localhost:3000/api/admin/'
+    server: 'https://ledgepointbackend.onrender.com/api/admin/'
 }
 
 export default urls
