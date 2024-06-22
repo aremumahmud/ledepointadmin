@@ -59,7 +59,7 @@ function SendEmailToClient(){
         <option value="">Select Client</option>
         {
             userTables.map((data, i)=>{
-                return  <option key={i} value={data.id}>{data.investor_name}</option>
+                return  <option key={i} value={data._id}>{data.investor_name}</option>
             })
 
         }
