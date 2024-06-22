@@ -20,7 +20,7 @@ function SendEmailToClient(){
         formData.forEach((value, key) => {
           jsonData[key] = value;
         });
-
+//window.alert(JSON.stringify(jsonData))
         SendEmail(jsonData).then(res=>{
             setOnn(false)
 
