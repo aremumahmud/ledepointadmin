@@ -25,7 +25,7 @@ function SendEmailToClient(){
             setOnn(false)
 
             if(res.error) return alert('an unexpected error has occured')
-            window.alert('client added successfully')
+            window.alert('Email sent successfully')
             location.reload()
         }).catch(err=>{
             alert('an unexpected error has occured')
