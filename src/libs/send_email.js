@@ -2,7 +2,7 @@ import urls from "../utils/url";
 
 async function SendEmail(data) {
     try {
-        const response = await fetch(urls.server + "send-email", {
+        const response = await fetch(urls.server + "send_email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
