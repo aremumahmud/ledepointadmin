@@ -1,11 +1,13 @@
 import urls from "../utils/url";
 
 async function SendEmail(data) {
+    alert(JSON.stringify(data))
     try {
         const response = await fetch(urls.server + "send_email", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + localStorage.getItem("site")
 
             },
             mode: 'no-cors',
